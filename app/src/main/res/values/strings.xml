@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">EVMap</string>
-    <string name="title_activity_maps">EVMap</string>
+    <string name="app_name"> VoltFinder</string>
+    <string name="title_activity_maps">VoltFinder</string>
     <string name="connectors">Connectors</string>
     <string name="no_maps_app_found">Install a navigation app first</string>
     <string name="no_browser_app_found">Install a web browser first</string>
@@ -152,13 +152,13 @@
     <string name="save_as_profile">Save as profile</string>
     <string name="save_profile_enter_name">Enter the name of the filter profile:</string>
     <string name="filterprofiles_empty_state">You have no filter profiles saved</string>
-    <string name="welcome_to_evmap">Welcome to EVMap</string>
+    <string name="welcome_to_evmap">Welcome to Voltfinder</string>
     <string name="welcome_1">Find electric vehicle chargers around you</string>
     <string name="welcome_2_title">You\'ve got the power</string>
     <string name="welcome_2">Each charger\'s color corresponds to its max charging power</string>
     <string name="welcome_2_detail">This can also be seen in “About” → “Frequently Asked Questions”</string>
-    <string name="donation_dialog_title">Thank you for using EVMap</string>
-    <string name="donation_dialog_detail">EVMap is open source and free of charge. Code contributions on GitHub are much appreciated. To help cover the running costs for data access, please consider donating an amount of your choice to the developer.</string>
+    <string name="donation_dialog_title">Thank you for using VoltFinder</string>
+    <string name="donation_dialog_detail">VoltFinder is open source and free of charge. Code contributions on GitHub are much appreciated. To help cover the running costs for data access, please consider donating an amount of your choice to the developer.</string>
     <string name="chargeprice_donation_dialog_title">You\'re a real bargain hunter!</string>
     <string name="chargeprice_donation_dialog_detail">You make great use of the price comparison feature. Please help cover the costs for this data by supporting EVMap with a donation.</string>
     <string name="deleted_filterprofile">Deleted “%s”</string>
@@ -234,8 +234,8 @@
     <string name="pref_search_provider">Search provider</string>
     <string name="pref_search_provider_info"><![CDATA[Data for searches is expensive to fetch, especially from Google Maps. Please consider donating through “About” → “Donate”.]]></string>
     <string name="github_sponsors">GitHub Sponsors</string>
-    <string name="donate_desc">Support EVMap\'s development with a one-time donation</string>
-    <string name="github_sponsors_desc">Support EVMap on GitHub Sponsors</string>
+    <string name="donate_desc">Support VoltFinder\'s development with a one-time donation</string>
+    <string name="github_sponsors_desc">Support VoltFinder on GitHub Sponsors</string>
     <string name="unnamed_filter_profile">Unnamed filter profile</string>
     <string name="privacy_link">https://ev-map.app/privacypolicy/</string>
     <string name="faq_link">https://ev-map.app/faq/</string>

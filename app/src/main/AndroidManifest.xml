@@ -28,9 +28,9 @@
         android:dataExtractionRules="@xml/backup_rules_api31"
         android:fullBackupOnly="true"
         android:backupAgent=".storage.BackupAgent"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launchervolt"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_launchervoltnew_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:localeConfig="@xml/locales_config">
@@ -38,17 +38,20 @@
         <meta-data
             android:name="com.mapbox.ACCESS_TOKEN"
             android:value="@string/mapbox_key" />
-
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
         <activity
             android:name=".MapsActivity"
-            android:label="@string/app_name"
+            android:label="Voltfinder"
             android:theme="@style/AppTheme.LaunchScreen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
+
+
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
                 <data android:scheme="geo" />
